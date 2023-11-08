@@ -545,6 +545,11 @@ img.logo-custom {
 /* Navbar Start End */
 
 /* Hero One Start*/
+
+.aai-footer-info {
+  margin-left: 25%;
+}
+
 .aai-hero-one {
   padding: 235px 0 120px 0;
 }
@@ -992,7 +997,8 @@ img.logo-custom {
   margin-bottom: 30px;
 }
 .aai-social-links {
-  gap: 10px;
+  gap: 15px;
+  margin-left: 20%;
 }
 .aai-social-links a {
   width: 40px;
