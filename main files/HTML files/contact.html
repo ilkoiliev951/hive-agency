@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="assets/css/glightbox-min.css" />
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   </head>
   <body>
     <!-- Menu Start -->
     <header class="header-primary">
       <div class="container">
         <nav class="navbar navbar-expand-xl justify-content-between">
-          <a href="index.html">
-            <img src="assets/img/logo/logo-m.svg" alt="" />
+          <a href="index.html" >
+            <img class="logo-custom-1" src="assets/img/logo/QuantumLogoSmall.png" alt="assets/img/logo/QuantumLogoSmall.png" />
           </a>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
@@ -35,16 +36,10 @@
                   class="nav-link"
                   href="index.html"
                   role="button"
-                  data-bs-toggle="dropdown"
-                  data-bs-auto-close="outside"
                   aria-expanded="false"
                   >Home</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-
               <li class="nav-item">
                 <a class="nav-link" href="services.html">Services</a>
               </li>
@@ -103,7 +98,7 @@
                 >
                   <li>
                     <a
-                      href=""
+                      href="index.html"
                       class="aai-breadcrumb-link text-decoration-underline"
                       >Home</a
                     >
@@ -126,7 +121,7 @@
                     </svg>
                   </li>
                   <li>
-                    <a href="" class="aai-breadcrumb-link"> Contact Us </a>
+                    <a href="contact.html" class="aai-breadcrumb-link"> Contact Us </a>
                   </li>
                 </ul>
               </div>
@@ -143,7 +138,7 @@
             <div class="col-xl-6 col-lg pe-lg-5">
               <div>
                 <h2 class="section-title mb-5">
-                  We love to collab with, Let’s do great together!
+
                 </h2>
                 <div class="">
                   <div class="aai-contact-widget mb-4">
@@ -154,10 +149,10 @@
                       <div>
                         <h3 class="aai-contact-widget-title">Contact Info</h3>
                         <p class="aai-contact-support">
-                          Open a chat or give us call at
+                          Can't wait? Give us a call:
                         </p>
                         <a href="tel:3108415500" class="aai-contact-address"
-                          >310 841 5500</a
+                          >+359 884274967</a
                         >
                       </div>
                     </div>
@@ -167,13 +162,14 @@
             </div>
             <div class="col-xl-6 col-lg">
               <div class="aai-contact-form">
-                <form>
+                <form class="contact_form">
                   <div class="row align-items-center justify-content-between">
                     <div class="col-xl-6">
                       <div class="aai-form-input">
                         <input
                           type="text"
                           class="form-control shadow-none"
+                          id="full_name"
                           placeholder="Full Name"
                         />
                       </div>
@@ -182,6 +178,7 @@
                       <div class="aai-form-input">
                         <input
                           type="text"
+                          id="email"
                           class="form-control shadow-none"
                           placeholder="Email"
                         />
@@ -191,13 +188,14 @@
                       <div class="aai-form-input">
                         <textarea
                           class="form-control shadow-none text-area"
+                          id="email_body"
                           placeholder="Message"
                         ></textarea>
                       </div>
                     </div>
                     <div class="col-xl-12">
                       <div class="d-flex justify-content-start">
-                        <button class="aai-btn btn-pill-solid">
+                        <button class="aai-btn btn-pill-solid" id="contact_send_btn">
                           Send A Message
                         </button>
                       </div>
@@ -221,43 +219,6 @@
       "
     >
       <div class="container">
-        <div class="aai-footer-support">
-          <div class="row g-4 align-items-center">
-            <div class="col-lg-6">
-              <div class="aai-support-info d-flex align-items-center">
-                <div>
-                  <img src="assets/img/icons/headset.svg" alt="" />
-                </div>
-                <div class="aai-support-contact">
-                  <p class="aai-support-text mb-1">
-                    Have a question? Call us 24/7
-                  </p>
-                  <a
-                    href="tel:+1707797
-                0462"
-                    class="aai-support-number"
-                  >
-                    +1 (707) 797 0462</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="aai-newsletter">
-                <form>
-                  <div class="position-relative">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Enter your email"
-                    />
-                    <button class="aai-newsletter-btn">Subscribe</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="aai-footer-navigation-widgets py-80">
           <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-12">
@@ -286,85 +247,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-8 col-lg-8 col-md-12 mt-5 mt-lg-0">
-              <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4 mb-5 mb-lg-0">
-                  <nav class="aai-footer-nav">
-                    <h3 class="aai-footer-nav-title">Links</h3>
-                    <ul class="aai-footer-nav-list">
-                      <li class="aai-footer-nav-list-item">
-                        <a href="index.html" class="aai-footer-nav-link"> Home </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="services.html" class="aai-footer-nav-link"> Service </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="prices.html" class="aai-footer-nav-link"> Pricing </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="about.html" class="aai-footer-nav-link"> About US </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="features.html" class="aai-footer-nav-link"> Feature </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 mb-5 mb-lg-0">
-                  <nav class="aai-footer-nav">
-                    <h3 class="aai-footer-nav-title">Artworks</h3>
-                    <ul class="aai-footer-nav-list">
-                      <li class="aai-footer-nav-list-item">
-                        <a href="services.html" class="aai-footer-nav-link"> 3D Artworks </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="services.html" class="aai-footer-nav-link"> Photography </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="services.html" class="aai-footer-nav-link">
-                          PriFlat Illustrationcing
-                        </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="services.html" class="aai-footer-nav-link">Intro Videos </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4">
-                  <nav class="aai-footer-nav">
-                    <h3 class="aai-footer-nav-title">Community</h3>
-                    <ul class="aai-footer-nav-list">
-                      <li class="aai-footer-nav-list-item">
-                        <a href="services.html" class="aai-footer-nav-link">
-                          Global Partners
-                        </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="about.html" class="aai-footer-nav-link"> Forum </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="services.html" class="aai-footer-nav-link">
-                          Virtual World
-                        </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="about.html" class="aai-footer-nav-link"> Community </a>
-                      </li>
-                      <li class="aai-footer-nav-list-item">
-                        <a href="services.html" class="aai-footer-nav-link">
-                          Brand Assets
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div class="aai-footer-copyright text-center">
-          <p class="aai-copyright-text">Copyright @2023 Aai inc.</p>
+          <p class="aai-copyright-text">Copyright @2023 Hive Development LLC</p>
         </div>
       </div>
     </footer>
@@ -377,5 +263,6 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/glightbox-min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/contact.js"></script>
   </body>
 </html>

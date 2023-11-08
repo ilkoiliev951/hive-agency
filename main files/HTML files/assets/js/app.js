@@ -4,7 +4,7 @@ function hasStickyMenu(){
     if(header){
     //Sticky Menu
     window.addEventListener('scroll', function() {
-    
+
     if (window.scrollY > 100) {
         header.classList.add('sticky');
     } else {
@@ -14,9 +14,6 @@ function hasStickyMenu(){
     }
 }
 hasStickyMenu();
-
-
-
 
 //Typed
 var e = document.querySelectorAll(".typing-animation");
@@ -123,7 +120,7 @@ breakpoints: {
         slidesPerView: 4.5
     }
     },
-}); 
+});
 //Service Image Slider
 let aaiImgSlider = new Swiper('.aaiImgSlider', {
 spaceBetween: 30,
